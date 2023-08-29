@@ -27,26 +27,25 @@
 
 :root{
 	
-	--color-0: 			rgba( 25, 40, 44, 1);
-	--color-1: 			rgba(122,129,132, 1);
-	--color-2: 			rgba( 57, 71, 75, 1);
-	--color-3: 			rgba( 45,109,130, 1);
-	--color-4: 			rgba( 16,143,185, 1);
-	
-	--bg-color:			var(--color-0);
-	--bg-color-2:		rgb(60, 80, 85);
-	--bg-light-color:	rgba( 48, 61, 65, 1);
-	--bg-dark-color:	rgba( 24, 31, 33, 1);
-	--bg-hover-color:	var(--color-2);
-	
-	--font-color:		#9AA1A4;
-	--font-color-2:		#ddd;
-	--font-color:		#cccccc;
-	--border-color:		black;
-	
-	--measurement-detail-node-bg-light:		var(--color-1);
-	--measurement-detail-node-bg-dark:		var(--color-2);
-	--measurement-detail-area-bg-color:		#eee;
+	--color-0:             #007c41;   /* Gold */
+	--color-1:             #ffdb05;   /* Dark Blue */
+	--color-3:             #6D7A81;   /* Light Gray */
+	--color-4:             #005A8C;   /* Blue */
+
+	--bg-color:            var(--color-0);
+	--bg-color-2:          #004624;   /* Blue */
+	--bg-light-color:      #ffdb05;   /* Light Gray */
+	--bg-dark-color:       #FFD100;   /* Gold */
+	--bg-hover-color:      var(--color-4);
+
+	--font-color:          #ffffff;
+	--font-color-2:        #ddd;
+	--font-color-3:        #cccccc;   /* Light Gray */
+	--border-color:        black;
+
+	--measurement-detail-node-bg-light:    var(--color-1);
+	--measurement-detail-node-bg-dark:     var(--color-4);
+	--measurement-detail-area-bg-color:    #eee;
 
 	
 }
@@ -128,7 +127,11 @@
 }
 
 #potree_sidebar_container a{
-	color: 			#8Aa1c4;
+
+	color:		var(--font-color-2);
+	text-shadow:	1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-size:	1em;
+
 }
 
 #potree_quick_buttons{
