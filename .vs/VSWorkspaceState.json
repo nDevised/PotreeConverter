@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Converter",
+    "\\Converter\\libs",
+    "\\Converter\\src"
+  ],
+  "SelectedNode": "\\Converter\\src\\chunker_countsort_laszip.cpp",
+  "PreviewInSolutionExplorer": false
+}
